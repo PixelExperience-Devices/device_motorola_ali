@@ -19,9 +19,15 @@
 # stop right here. No need to go down the rabbit hole.
 if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
     return
+else
+    MY_DIR="${BASH_SOURCE%/*}"
+    if [ ! -d "${MY_DIR}" ]; then
+        MY_DIR="${PWD}"
+    fi
 fi
 
 set -e
+ROOT="$MY_DIR"/../../..
 
 # Required!
 export DEVICE=ali
@@ -31,3 +37,8 @@ export VENDOR=motorola
 export DEVICE_BRINGUP_YEAR=2018
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+
+BLOB_ROOT="$ROOT"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary
+
+AUDIO_HAL="$BLOB_ROOT"/vendor/lib/hw/audio.primary.msm8953.so
+patchelf --replace-needed libcutils.so libprocessgroup.so "$AUDIO_HAL"

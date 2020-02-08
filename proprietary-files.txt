@@ -577,9 +577,9 @@ vendor/lib/libchromatix_s5k4h8_zsl_preview_3a.so
 vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so
 
 # Camera - Postprocessing
-lib/libdualcameraddm.so:vendor/lib/libdualcameraddm.so
-lib/libS5k2l7Pdaf.so:vendor/lib/libS5k2l7Pdaf.so
-lib/libS5k2l7PdafCamif.so:vendor/lib/libS5k2l7PdafCamif.so
+system/lib/libdualcameraddm.so:vendor/lib/libdualcameraddm.so
+system/lib/libS5k2l7Pdaf.so:vendor/lib/libS5k2l7Pdaf.so
+system/lib/libS5k2l7PdafCamif.so:vendor/lib/libS5k2l7PdafCamif.so
 
 # Camera-firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw

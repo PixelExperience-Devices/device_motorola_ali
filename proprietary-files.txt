@@ -1,11 +1,24 @@
-# ACDB
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Global_cal.acdb
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_General_cal.acdb
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Headset_cal.acdb
-vendor/etc/common/Handset_cal.acdb:vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Handset_cal.acdb
+# Audio - ACDB
+vendor/etc/acdbdata/common/Bluetooth_cal.acdb
+vendor/etc/acdbdata/common/General_cal.acdb
+vendor/etc/acdbdata/common/Global_cal.acdb
+vendor/etc/acdbdata/common/Handset_cal.acdb
+vendor/etc/acdbdata/common/Hdmi_cal.acdb
+vendor/etc/acdbdata/common/Headset_cal.acdb
+vendor/etc/acdbdata/common/Speaker_cal.acdb
+
+# Audio - Prebuilt
+vendor/lib/hw/audio.primary.msm8953.so
+vendor/lib/libmotaudioutils.so
+vendor/lib/libsensorndkbridge.so
+vendor/lib/libtinyalsa.so
+vendor/lib/libtinycompress.so
+vendor/lib/libtinycompress_vendor.so
+vendor/lib/libunshorten.so
+
+# Audio - Soundfx
+vendor/lib/soundfx/libspeakerbundle.so
+vendor/lib/soundfx/libmmieffectswrapper.so
 
 # Camera
 vendor/lib/hw/camera.msm8953.so

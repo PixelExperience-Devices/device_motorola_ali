@@ -743,6 +743,25 @@ vendor/firmware/focaltech-biel-ft5446-03-0001-ali.bin
 vendor/firmware/focaltech-ofilm-ft5446-0e-0001-ali.bin
 vendor/firmware/focaltech-toptouch-ft5446-07-0001-ali.bin
 
+# MotoDolbyV3 - from deen_sprout:10/QPKS30.54-22-13
+-app/MotoDolbyV3/MotoDolbyV3.apk|751688df37b21c36c1ffff4ce3840cb38d7baf3a
+-priv-app/daxService/daxService.apk|ccf383f8f80731b4585871346018701776aa4963
+etc/permissions/com.motorola.dolby.dolbyui.features.xml|7eafc481b604505f057931a6f83c507e357886b3
+etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml|ab4600814879c626a410e607107829faceec9d2c
+etc/permissions/com.dolby.daxservice.xml|38eb347890c0140fd6ff329dff5ba94cdabba08b
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service|90e958e95a2bee701644759dd16968c683ab6dbc
+vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc|3f2ef278f56489ffaab9fe3578f86f9c1265de8a
+vendor/etc/dolby/dax-default.xml
+vendor/lib/libdapparamstorage_ds1se.so|4bb5693ca1dc7cc073692383b53741ff42a9aae9
+vendor/lib/libstagefrightdolby.so|de4add06ae000d8f78f665758b8aaa02d20c9cff
+vendor/lib/vendor.dolby.hardware.dms@1.0.so|a64744dd4ec25542e53111b8271d7ff7bd6d71d2
+vendor/lib/soundfx/libswdap_ds1se.so|5adce2b66d5d44f801da6a33966ca8dcd227b592
+vendor/lib64/libdapparamstorage_ds1se.so|f12efdd04c9f4c7f9d8c20a4f52358d1f84f248a
+vendor/lib64/libdlbdsservice_ds1se.so|3bcee28dff07f492de5bb121cdabcc776d9b372c
+vendor/lib64/soundfx/libswdap_ds1se.so|4ca751ccf814116a46b0af22e54ea7f48ac471e7
+vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so|f596172d93a1f6f813a81a24772f491a7a438ad8
+vendor/lib64/vendor.dolby.hardware.dms@1.0.so|93f9190703181fa3cbddb68a7b728d175a474dca
+
 # NFC
 vendor/lib/libpn553_fw.so
 

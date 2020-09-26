@@ -24,3 +24,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.scrn_ortn=false \
     ro.vendor.sensors.pedometer=false \
     ro.hardware.sensors=ali
+
+# Property to enable DS2 dap
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    audio.dolby.ds2.enabled=true

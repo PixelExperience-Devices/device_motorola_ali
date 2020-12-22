@@ -21,7 +21,7 @@ vendor/lib/soundfx/libspeakerbundle.so
 vendor/lib/soundfx/libmmieffectswrapper.so
 
 # Camera
-vendor/lib/hw/camera.msm8953.so
+vendor/lib/hw/camera.msm8953.so|3696b9e377f8b6e77c6ece5a63603019ddc84bbc
 vendor/lib/libmot_lux_standardization.so
 vendor/lib/libS5k2l7Pdaf.so
 vendor/lib/libS5k2l7PdafCamif.so

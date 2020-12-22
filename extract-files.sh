@@ -40,5 +40,8 @@ export DEVICE_BRINGUP_YEAR=2018
 
 BLOB_ROOT="$ROOT"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary
 
+CAMERA_SERVICE="$BLOB_ROOT"/vendor/lib/hw/camera.msm8953.so
+sed -i "s|service.bootanim.exit|service.bootanim.hold|g" "${CAMERA_SERVICE}"
+
 AUDIO_HAL="$BLOB_ROOT"/vendor/lib/hw/audio.primary.msm8953.so
 patchelf --replace-needed libcutils.so libprocessgroup.so "$AUDIO_HAL"

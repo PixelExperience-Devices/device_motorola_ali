@@ -45,3 +45,6 @@ sed -i "s|service.bootanim.exit|service.bootanim.hold|g" "${CAMERA_SERVICE}"
 
 AUDIO_HAL="$BLOB_ROOT"/vendor/lib/hw/audio.primary.msm8953.so
 patchelf --replace-needed libcutils.so libprocessgroup.so "$AUDIO_HAL"
+
+LIBWUI_FIXUP="$BLOB_ROOT"/vendor/lib/libmmcamera_vstab_module.so
+sed -i "s/libgui/libwui/" "${LIBWUI_FIXUP}"

@@ -12,6 +12,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile5=/vendor/etc/acdbdata/common/Headset_cal.acdb \
     persist.vendor.audio.calfile6=/vendor/etc/acdbdata/common/Handset_cal.acdb
 
+# Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.camera.expose.aux=1 \
+    ro.camera.cfa.packagelist=org.codeaurora.snapcam,com.motorola.camera2 \
+    vendor.camera.aux.packagelist=com.motorola.camera2
+
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.pmd=false \

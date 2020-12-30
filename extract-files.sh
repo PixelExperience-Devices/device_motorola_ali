@@ -48,3 +48,6 @@ patchelf --replace-needed libcutils.so libprocessgroup.so "$AUDIO_HAL"
 
 LIBWUI_FIXUP="$BLOB_ROOT"/vendor/lib/libmmcamera_vstab_module.so
 sed -i "s/libgui/libwui/" "${LIBWUI_FIXUP}"
+
+PPROC="$BLOB_ROOT"/vendor/lib/libmmcamera2_pproc_modules.so
+sed -i "s/ro.product.manufacturer/ro.product.nopefacturer/" "${PPROC}"

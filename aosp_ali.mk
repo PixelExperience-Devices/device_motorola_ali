@@ -32,3 +32,5 @@ PRODUCT_MODEL := moto g(6)
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="ali-user 9 PPS29.118-15-11-16 3afd9 release-keys"
+
+BUILD_FINGERPRINT := motorola/ali/ali:9/PPS29.118-11/aa435:user/release-keys

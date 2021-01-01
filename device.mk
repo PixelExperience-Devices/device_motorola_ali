@@ -16,18 +16,12 @@
 # Vendor blobs
 $(call inherit-product-if-exists, vendor/motorola/ali/ali-vendor.mk)
 
-# Dolby
-$(call inherit-product-if-exists, vendor/motorola/motodolby/dolby.mk)
-
 # Device Path
 DEVICE_PATH := device/motorola/ali
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
-
-# Device properties
-$(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
 
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi

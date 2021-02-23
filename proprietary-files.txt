@@ -714,6 +714,13 @@ vendor/etc/qdcm_calib_data_mipi_mot_vid_auo_1080p_565.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_565.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_565.xml
 
+# Firmware - Audio - Video
+vendor/etc/ap_gain.bin
+vendor/etc/ap_gain_mmul.bin
+
+# Firmware - CapSense
+system/etc/firmware/MotorolaCapSense.hex:vendor/firmware/MotorolaCapSense.hex
+
 # firmwares - emmc
 vendor/firmware/emmc_ffu_13_S0J9N8.fw
 vendor/firmware/emmc_ffu_15_FE12MB.fw
@@ -723,6 +730,16 @@ vendor/firmware/emmc_ffu_15_RC1BMB.fw
 vendor/firmware/emmc_ffu_15_RE1BMB.fw
 vendor/firmware/emmc_ffu_15_RX14MB.fw
 vendor/firmware/emmc_ffu_15_RX1BMB.fw
+
+# Firmware - Opalum
+system/etc/firmware/opalum.rx.ext.config.0:vendor/firmware/opalum.rx.ext.config.0
+system/etc/firmware/opalum.rx.ext.config.1:vendor/firmware/opalum.rx.ext.config.1
+system/etc/firmware/opalum.rx.ext.config.2:vendor/firmware/opalum.rx.ext.config.2
+system/etc/firmware/opalum.rx.ext.config.3:vendor/firmware/opalum.rx.ext.config.3
+system/etc/firmware/opalum.tx.ext.config.0:vendor/firmware/opalum.tx.ext.config.0
+system/etc/firmware/opalum.tx.ext.config.1:vendor/firmware/opalum.tx.ext.config.1
+system/etc/firmware/opalum.tx.ext.config.2:vendor/firmware/opalum.tx.ext.config.2
+system/etc/firmware/opalum.tx.ext.config.3:vendor/firmware/opalum.tx.ext.config.3
 
 # Gatekeeper - from deen_sprout:10/QPKS30.54-22-11
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|bea6d682011b465a08b9085f7b5e69b965743eee

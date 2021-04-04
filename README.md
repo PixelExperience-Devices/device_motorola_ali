@@ -2,6 +2,8 @@ Copyright (C) 2020 The PixelExperience Project
 
 The Motorola Moto G(6) (codenamed _"ali"_ ) is a mid-range phone from Motorola.
 
+Details at [wiki](https://wiki.pixelexperience.org/devices/ali/)
+
 Motorola Moto G(6) was announced and released in April 2018.
 
 ## Device specifications

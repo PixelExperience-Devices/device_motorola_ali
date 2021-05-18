@@ -28,9 +28,6 @@ TARGET_SCREEN_DENSITY := 480
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CONFIG := ali_defconfig
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/adspd.xml
-
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 

@@ -8,6 +8,6 @@
     "remote": "pixel-devices-blobs",
     "repository": "vendor_motorola_ali",
     "target_path": "vendor/motorola/ali",
-    "branch": "eleven"
+    "branch": "eleven-wip"
   }
 ]

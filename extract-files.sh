@@ -20,9 +20,6 @@ function blob_fixup() {
         vendor/lib/libmmcamera2_pproc_modules.so)
             sed -i "s/ro.product.manufacturer/ro.product.nopefacturer/" "${2}"
             ;;
-        vendor/etc/init/motorola.hardware.audio.adspd@1.0-service.rc)
-            sed -i "s/audio media/audio media input/" "${2}"
-            ;;
     esac
 }
 
